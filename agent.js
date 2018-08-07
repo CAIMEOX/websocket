@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
-const wss = new WebSocket.Server({ port: 8080 });
+const wss = new WebSocket.Server({ port: 7070 });
 const events = new Array("AgentCommand","AgentCreated","PlayerMessage");
-console.log("Please connect to 127.0.0.1:8080");
+console.log("Please connect to 127.0.0.1:7070");
 console.log("You can use \"-\" control agent.")
 wss.on('connection', function connection(ws) {
 	for (var c = 0 ; c < events.length ; c++){
