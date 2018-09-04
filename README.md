@@ -12,3 +12,7 @@ create round:
 create circle:
 ``circle <x;y;z> <Radius:int>``
 
+create ring:
+``ring <x;y;z> <Radius:int>``
+
+and more....
